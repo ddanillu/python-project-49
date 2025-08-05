@@ -1,4 +1,4 @@
-from random import randint
+from secrets import randbelow
 
 import prompt
 
@@ -11,7 +11,7 @@ def play_brain_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     correct_answer_counter = 0
     while correct_answer_counter < 3:
-        random_number = randint(1, 100)
+        random_number = randbelow(1001)
         question = f'Question: {random_number}\nYour answer: '
         answer_player = prompt.string(question).lower()
         correct_answer = 'yes' if random_number % 2 == 0 else 'no'
