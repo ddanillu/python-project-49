@@ -20,10 +20,3 @@ def play_brain_even():
         else:
             return
     print(f'Congratulations, {name}!')
-    
-    
-def main():
-    play_brain_even()
-
-    if __name__ == "__main__":
-        main()
