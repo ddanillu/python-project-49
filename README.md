@@ -16,3 +16,4 @@
 ### Example asciinema
 [![asciicast](https://asciinema.org/a/LPfD4fMpaZStLrrz6jb1uQRIf.svg)](https://asciinema.org/a/LPfD4fMpaZStLrrz6jb1uQRIf)
 [![asciicast](https://asciinema.org/a/vifRxax7kzgtYUDkisGp4RVIV.svg)](https://asciinema.org/a/vifRxax7kzgtYUDkisGp4RVIV)
+[![asciicast](https://asciinema.org/a/zSajkzds0EPFi9AGkQMUWjEsJ.svg)](https://asciinema.org/a/zSajkzds0EPFi9AGkQMUWjEsJ)
