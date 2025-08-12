@@ -3,6 +3,7 @@ import sys
 from brain_games.games.brain_calc import play_brain_calc
 from brain_games.games.brain_even import play_brain_even
 from brain_games.games.brain_gcd import play_brain_gcd
+from brain_games.games.brain_prime import play_brain_prime
 from brain_games.games.brain_progression import play_brain_progression
 
 
@@ -22,6 +23,10 @@ def main_progression():
     play_brain_progression()
 
 
+def main_prime():
+    play_brain_prime()
+
+
 if __name__ == "__main__":
     game_name = sys.argv[1]
     match game_name:
@@ -33,5 +38,7 @@ if __name__ == "__main__":
             main_gcd()
         case "brain_progression":
             main_progression()
+        case "brain_prime":
+            main_prime()
         case _:
             print(f"The game '{game_name}' was not found.")
