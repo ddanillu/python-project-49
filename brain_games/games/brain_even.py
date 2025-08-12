@@ -2,8 +2,8 @@ from secrets import randbelow
 
 import prompt
 
-from brain_games.scripts.greetings import welcome_user
 from brain_games.scripts.game_responses import check_answer
+from brain_games.scripts.greetings import welcome_user
 
 
 def play_brain_even():

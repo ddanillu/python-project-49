@@ -1,7 +1,7 @@
-from secrets import randbelow, choice
+from secrets import choice, randbelow
 
-from brain_games.scripts.greetings import welcome_user
 from brain_games.scripts.game_responses import check_answer
+from brain_games.scripts.greetings import welcome_user
 
 
 def calculate(a, b, op):
@@ -11,6 +11,7 @@ def calculate(a, b, op):
         return max(a, b) - min(a, b)
     elif op == '*':
         return a * b
+
 
 def play_brain_calc():
     name = welcome_user()

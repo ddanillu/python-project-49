@@ -1,7 +1,8 @@
 from secrets import randbelow
 
-from brain_games.scripts.greetings import welcome_user
 from brain_games.scripts.game_responses import check_answer
+from brain_games.scripts.greetings import welcome_user
+
 
 def play_brain_gcd():
     name = welcome_user()
@@ -12,7 +13,7 @@ def play_brain_gcd():
         print(f'Question: {a} {b}')
         user_input = input('Your answer: ')
         answer_player = int(user_input)
-        a, b = max(a,b), min(a,b)
+        a, b = max(a, b), min(a, b)
         if b == 0:
             correct_answer = a
         else:
